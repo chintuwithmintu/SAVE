@@ -260,7 +260,7 @@ async def batch_link(_, message):
                 f"Batch completed successfully for {cl} messages 🎉\n\n**__Powered by OREO__**",
                 reply_markup=keyboard
             )
-            await app.send_message(message.chat.id, "Batch completed successfully! 🎉")
+            await app.send_message(message.chat.id, "Batch completed successfully! 🎉🎉")
             return
             
         # Handle special links with userbot
